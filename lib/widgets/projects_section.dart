@@ -16,33 +16,33 @@ class ProjectsSection extends StatelessWidget {
       child: Column(
         children: [
           // Work projects title
-          const Text(
-            "Work projects",
-            style: TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-              color: CustomColor.whitePrimary,
-            ),
-          ),
-          const SizedBox(height: 50),
-          // Work projects cards
-          ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 900),
-            child: Wrap(
-              spacing: 25,
-              runSpacing: 25,
-              children: [
-                for (int i = 0; i < workProjectUtils.length; i++)
-                  ProjectCardWidget(
-                    project: workProjectUtils[i],
-                  ),
-              ],
-            ),
-          ),
+          // const Text(
+          //   "Work projects",
+          //   style: TextStyle(
+          //     fontSize: 24,
+          //     fontWeight: FontWeight.bold,
+          //     color: CustomColor.whitePrimary,
+          //   ),
+          // ),
+          // const SizedBox(height: 50),
+          // // Work projects cards
+          // ConstrainedBox(
+          //   constraints: const BoxConstraints(maxWidth: 900),
+          //   child: Wrap(
+          //     spacing: 25,
+          //     runSpacing: 25,
+          //     children: [
+          //       for (int i = 0; i < workProjectUtils.length; i++)
+          //         ProjectCardWidget(
+          //           project: workProjectUtils[i],
+          //         ),
+          //     ],
+          //   ),
+          // ),
           const SizedBox(height: 80),
           // Hobby projects title
           const Text(
-            "Hobby projects",
+            "Projects",
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,

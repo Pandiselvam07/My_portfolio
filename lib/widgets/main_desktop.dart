@@ -27,7 +27,7 @@ class MainDesktop extends StatelessWidget {
             children: [
               // intro message
               const Text(
-                "Hi,\nI'm Shohruh AK\nA Flutter Developer",
+                "Hi ,\nI'm Pandiselvam R\nA Flutter Developer",
                 style: TextStyle(
                   fontSize: 30,
                   height: 1.5,
@@ -47,9 +47,20 @@ class MainDesktop extends StatelessWidget {
             ],
           ),
           // avatar img
-          Image.asset(
-            "assets/my_flutter_avatar.png",
-            width: screenWidth / 2,
+          Flexible(
+            child: Container(
+              width: screenWidth / 2,
+              height: screenHeight / 4,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+                image: DecorationImage(
+                    fit: BoxFit.fill, image: AssetImage("assets/skills.png")),
+              ),
+              // child: Image.asset(
+              //   "assets/skills.png",
+              //   width: screenWidth / 2,
+              // ),
+            ),
           ),
         ],
       ),

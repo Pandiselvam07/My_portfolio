@@ -27,27 +27,15 @@ const List<Map> skillItems = [
     "title": "Dart",
   },
   {
-    "img": "assets/html5.png",
-    "title": "HTML5",
+    "img": "assets/firebase.png",
+    "title": "FireBase",
   },
   {
-    "img": "assets/css3.png",
-    "title": "CSS3",
+    "img": "assets/java.png",
+    "title": "Java",
   },
   {
-    "img": "assets/javascript.png",
-    "title": "JS",
+    "img": "assets/mysql.png",
+    "title": "MySQL",
   },
-  {
-    "img": "assets/hugo.png",
-    "title": "Hugo",
-  },
-  {
-    "img": "assets/docker.png",
-    "title": "Docker",
-  },
-  {
-    "img": "assets/python.png",
-    "title": "Python",
-  }
 ];
