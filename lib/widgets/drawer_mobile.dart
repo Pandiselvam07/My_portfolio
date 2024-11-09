@@ -31,7 +31,7 @@ class DrawerMobile extends StatelessWidget {
               ),
             ),
           ),
-          for (int i = 0; i < navIcons.length; i++)
+          for (int i = 0; i < navIcons.length && i < navTitles.length; i++)
             ListTile(
               contentPadding: const EdgeInsets.symmetric(
                 horizontal: 30.0,

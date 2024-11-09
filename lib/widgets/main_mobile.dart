@@ -37,13 +37,13 @@ class MainMobile extends StatelessWidget {
             child: Container(
               width: screenWidth / 2,
               height: screenHeight / 4,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(50)),
-                image: DecorationImage(
-                    fit: BoxFit.fill, image: AssetImage("assets/skills.png")),
-              ),
+              // decoration: BoxDecoration(
+              //   borderRadius: BorderRadius.all(Radius.circular(50)),
+              //   image: DecorationImage(
+              //       fit: BoxFit.fill, image: AssetImage("assets/skills.png")),
+              // ),
               // child: Image.asset(
-              //   "assets/skills.png",
+              //   "assets/my_flutter_avatar.png",
               //   width: screenWidth / 2,
               // ),
             ),
@@ -61,13 +61,13 @@ class MainMobile extends StatelessWidget {
           ),
           const SizedBox(height: 15),
           // contact btn
-          SizedBox(
-            width: 190.0,
-            child: ElevatedButton(
-              onPressed: () {},
-              child: const Text("Get in touch"),
-            ),
-          )
+          // SizedBox(
+          //   width: 190.0,
+          //   child: ElevatedButton(
+          //     onPressed: () {},
+          //     child: const Text("Get in touch"),
+          //   ),
+          // )
         ],
       ),
     );

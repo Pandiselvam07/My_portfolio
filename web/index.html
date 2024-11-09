@@ -18,18 +18,19 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="Pandiselvam_R-Portfolio.">
 
   <!-- iOS meta tags & icons -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="my_portfolio">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="PS_logo.png"/>
 
-  <title>my_portfolio</title>
+  <title>Pandiselvam R</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
@@ -54,6 +55,21 @@
         }
       });
     });
+  </script>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCnAHJJ09h2dTExOcCQZr13yaM1fZvQCaY",
+      authDomain: "pandiselvam-portfolio.firebaseapp.com",
+      projectId: "pandiselvam-portfolio",
+      storageBucket: "pandiselvam-portfolio.firebasestorage.app",
+      messagingSenderId: "381822617221",
+      appId: "1:381822617221:web:af6ed5a35e1f7aa0c70bec"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
   </script>
 </body>
 </html>

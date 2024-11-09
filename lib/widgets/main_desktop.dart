@@ -37,13 +37,13 @@ class MainDesktop extends StatelessWidget {
               ),
               const SizedBox(height: 15),
               // contact btn
-              SizedBox(
-                width: 250.0,
-                child: ElevatedButton(
-                  onPressed: () {},
-                  child: const Text("Get in touch"),
-                ),
-              )
+              // SizedBox(
+              //   width: 250.0,
+              //   child: ElevatedButton(
+              //     onPressed: () {},
+              //     child: const Text("Get in touch"),
+              //   ),
+              // ),
             ],
           ),
           // avatar img
