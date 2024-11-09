@@ -21,7 +21,7 @@ class ProjectUtils {
 List<ProjectUtils> hobbyProjectUtils = [
   ProjectUtils(
     image: 'assets/projects/notes_application.png',
-    title: 'Notes Application App',
+    title: 'Notes Application ',
     subtitle:
         'This is user-friendly mobile application built with Flutter and Dart, designed for efficient note-taking.',
     androidLink: '',

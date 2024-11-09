@@ -1,6 +1,8 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-
 import '../constants/colors.dart';
+import 'package:flutter/material.dart';
+import 'dart:html' as html;
 
 class SiteLogo extends StatelessWidget {
   const SiteLogo({
@@ -11,16 +13,22 @@ class SiteLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: onTap,
-      child: const Text(
-        "PS",
-        style: TextStyle(
-          fontSize: 22,
-          fontWeight: FontWeight.bold,
-          decoration: TextDecoration.underline,
-          color: CustomColor.yellowSecondary,
-        ),
-      ),
-    );
+        onTap: () {
+          if (kIsWeb) {
+            html.window.location.reload(); // This will only run on web
+          } else {}
+        },
+        child: Container(
+          width: 50,
+          height: 50,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            image: DecorationImage(
+                image: AssetImage(
+                  "assets/PS_logo.jpg",
+                ),
+                fit: BoxFit.fill),
+          ),
+        ));
   }
 }
