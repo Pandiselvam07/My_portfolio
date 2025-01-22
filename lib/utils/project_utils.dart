@@ -20,19 +20,19 @@ class ProjectUtils {
 // HOBBY PROJECTS
 List<ProjectUtils> hobbyProjectUtils = [
   ProjectUtils(
-    image: 'assets/projects/notes_application.png',
-    title: 'Notes Application ',
-    subtitle:
-        'This is user-friendly mobile application built with Flutter and Dart, designed for efficient note-taking.',
-    androidLink: '',
-  ),
+      image: 'assets/projects/notes_application.png',
+      title: 'Notes Application ',
+      subtitle:
+          'This is user-friendly mobile application built with Flutter and Dart, designed for efficient note-taking.',
+      androidLink: '',
+      iosLink: ''),
   ProjectUtils(
-    image: 'assets/projects/todoList.jpg',
-    title: 'To-Do List Application ',
-    subtitle:
-        'The To-Do-List is a Flutter-based mobile application , allowing users to sign up, log in, and manage tasks efficiently ',
-    androidLink: '',
-  ),
+      image: 'assets/projects/todoList.jpg',
+      title: 'To-Do List Application ',
+      subtitle:
+          'The To-Do-List is a Flutter-based mobile application , allowing users to sign up, log in, and manage tasks efficiently ',
+      androidLink: '',
+      iosLink: ''),
 ];
 
 // ###############

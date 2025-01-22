@@ -47,7 +47,7 @@ class ContactSection extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 24,
-              color: CustomColor.whitePrimary,
+              color: Colors.white,
             ),
           ),
           const SizedBox(height: 50),
@@ -86,7 +86,10 @@ class ContactSection extends StatelessWidget {
                 style: ButtonStyle(
                     backgroundColor: WidgetStateProperty.all(Colors.green)),
                 onPressed: _launchEmail,
-                child: const Text("Get in touch"),
+                child: const Text(
+                  "Get in touch",
+                  style: TextStyle(color: Colors.white),
+                ),
               ),
             ),
           ),
